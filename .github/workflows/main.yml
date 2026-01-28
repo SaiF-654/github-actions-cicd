@@ -16,4 +16,13 @@ jobs:
        run: |
         echo "This is a DevOps Course"
         uname -a
+
+     - name: Check docker installation
+       run: |
+        docker
+        docker images
+
+     - name: run docker
+       run: |
+        docker run hello-world
           
