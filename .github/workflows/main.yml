@@ -15,5 +15,5 @@ jobs:
      - name: My First App
        run: |
         echo "This is a DevOps Course"
-        uname -@
+        uname -a
           
