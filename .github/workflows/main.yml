@@ -1,0 +1,19 @@
+name: My CI/CD pipeline in GitHub Actions
+
+on:
+  push:
+    branches: main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@4
+
+      - name: My First App
+        run: |
+          echo "This is DevOps Course"
+          uname -@
+          
